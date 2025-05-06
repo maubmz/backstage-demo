@@ -4,7 +4,7 @@ metadata:
   name: hello-backstage
   description: Un microservicio simple para probar Backstage
   annotations:
-    backstage.io/techdocs-ref: https://github.com/maubmz/backstage-demo/blob/componente/_test/backstage-demo/docs/mkdocs.yml
+    backstage.io/techdocs-ref: github:https://github.com/maubmz/backstage-demo/tree/componente/_test
 spec:
   type: service
   lifecycle: experimental
