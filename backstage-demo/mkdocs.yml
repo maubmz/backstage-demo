@@ -1,6 +1,9 @@
-site_name: 'Hello Backstage Docs'
+site_name: Hello Backstage
 nav:
-  - Inicio: index.md
+  - Home: index.md
+
+docs_dir: docs
+
 plugins:
   - techdocs-core
 
