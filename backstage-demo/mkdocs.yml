@@ -5,4 +5,4 @@ plugins:
 
 # Sidebar
 nav:
-  - 'index.md'
+  - index.md
