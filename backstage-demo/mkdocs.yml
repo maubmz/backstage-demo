@@ -1,8 +1,0 @@
-site_name: Backstage Test
-docs_dir: docs
-plugins:
-  - techdocs-core
-
-# Sidebar
-nav:
-  - index.md
