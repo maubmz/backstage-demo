@@ -1,0 +1,7 @@
+site_name: Documentación de Mi Componente
+nav:
+  - Inicio: docs/index.md
+  - Arquitectura: docs/arquitectura.md
+  - Instalación: docs/instalacion.md
+  - Uso: docs/uso.md
+docs_dir: docs

@@ -2,10 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-demo
+  description: Componente de prueba para ver como funciona docs en backstage
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: production
-  owner: user1
+  owner: production-test
   

@@ -1,3 +1,1 @@
-hello world
-
-im in docs directory
+# Hello youre in index.md
