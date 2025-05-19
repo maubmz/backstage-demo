@@ -27,3 +27,5 @@ El portal IDP basado en Backstage se compone de los siguientes elementos clave:
 - **Base de Datos**: comúnmente PostgreSQL, usada para almacenar metadatos del catálogo y estados de plugins.
 - **Plugins personalizados**: desarrollos internos que amplían las capacidades de Backstage (por ejemplo: generación de pipelines, onboarding de microservicios).
 - **Auth y SSO**: integración con proveedores de identidad (OIDC, Azure AD, Okta) para autenticación y autorización.
+
+[Regresar al indice](./index.md)
