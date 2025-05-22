@@ -24,8 +24,31 @@ El portal IDP basado en Backstage se compone de los siguientes elementos clave:
 
 - **Frontend Backstage App**: aplicación React generada con el CLI de Backstage, sirve como interfaz para los usuarios.
 - **Backend de Backstage**: servidor Node.js con plugins que proveen APIs internas y conexión con herramientas externas.
-- **Base de Datos**: comúnmente PostgreSQL, usada para almacenar metadatos del catálogo y estados de plugins.
+- **Base de Datos**: comúnmente PostgreSQL, usada para almacenar metadatos del catálogo y estados de plugins. Al instalar backstage es una base de datos en memoria (no persisten los datos).
 - **Plugins personalizados**: desarrollos internos que amplían las capacidades de Backstage (por ejemplo: generación de pipelines, onboarding de microservicios).
 - **Auth y SSO**: integración con proveedores de identidad (OIDC, Azure AD, Okta) para autenticación y autorización.
+
+## Instalación
+
+### Requisitos previos para crear proyecto en Backstage:
+- curl o wget
+- Node.js
+- yarn
+- Docker
+- Git
+- Acceso al puerto 3000 y 7007
+
+### Pasos para instalación
+1. Crear la aplicación de Backstage ejecutando el siguiente comando:  
+   `npx @backstage/create-app@latest`  
+   La aplicación va a generar una estructura de Backstage donde se va a instalar lo necesario para su funcionamiento.
+
+2. Acceder al directorio que generó Backstage con el siguiente comando:  
+   `cd {nombre-proyecto}`
+
+3. Estando dentro de nuestra aplicación, ejecutar el siguiente comando para levantar la aplicación:  
+   `yarn start`  
+   Cuando se termine de levantar la aplicación, nos va a enviar a la página principal de Backstage.
+
 
 [Regresar al indice](./index.md)
