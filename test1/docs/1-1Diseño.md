@@ -29,15 +29,6 @@ El portal IDP basado en Backstage se compone de los siguientes elementos clave:
 - **Auth y SSO**: integración con proveedores de identidad (OIDC, Azure AD, Okta) para autenticación y autorización.
 
 ## Instalación
-
-### Requisitos previos para crear proyecto en Backstage:
-- curl o wget
-- Node.js
-- yarn
-- Docker
-- Git
-- Acceso al puerto 3000 y 7007
-
 ### Pasos para instalación
 1. Crear la aplicación de Backstage ejecutando el siguiente comando:  
    `npx @backstage/create-app@latest`  
