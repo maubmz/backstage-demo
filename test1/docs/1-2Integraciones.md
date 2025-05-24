@@ -1,6 +1,6 @@
 # Requisitos e Integraciones para Backstage
 
-Este documento detalla los requisitos e integraciones necesarias para ejecutar y desarrollar con [Backstage](https://backstage.io/), la plataforma de desarrollo de portales internos de servicios creada por Spotify.
+Este documento detalla los requisitos e integraciones necesarias para ejecutar backstage.
 
 ---
 
