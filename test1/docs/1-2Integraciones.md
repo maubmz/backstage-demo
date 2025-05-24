@@ -1,11 +1,11 @@
-#Integraciones necesarias para la ejecución de backstage
+# Integraciones necesarias para la ejecución de backstage
 - curl o wget
 - Node.js
 - yarn
 - Docker
 - Git
-- Acceso al puerto 3000 y 7007
+- Acceso al puerto 3000 y 7007  
 
 
 
-- [Regresar a Indice](./index.md)
+[Regresar a Indice](./index.md)
