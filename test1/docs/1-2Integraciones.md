@@ -1,10 +1,25 @@
-# Integraciones necesarias para la ejecución de backstage
-- curl o wget
-- Node.js
-- yarn
-- Docker
-- Git
-- Acceso al puerto 3000 y 7007  
+# Requisitos e Integraciones para Backstage
+
+Este documento detalla los requisitos e integraciones necesarias para ejecutar y desarrollar con [Backstage](https://backstage.io/), la plataforma de desarrollo de portales internos de servicios creada por Spotify.
+
+---
+
+## Requisitos del Sistema
+
+Asegúrate de tener instalados los siguientes componentes en tu entorno antes de comenzar:
+
+### Herramientas necesarias
+
+- **Node.js** (v16 o superior recomendado): Entorno de ejecución para JavaScript.
+- **yarn**: Gestor de paquetes preferido por Backstage.
+- **Docker**: Utilizado para contenedores de servicios auxiliares (como bases de datos o servicios externos).
+- **Git**: Para clonar repositorios y gestionar control de versiones.
+- **curl** o **wget**: Herramientas de línea de comandos para hacer peticiones HTTP.
+
+### Puertos requeridos
+
+- **Puerto 3000**: Interfaz de desarrollo del frontend.
+- **Puerto 7007**: API backend del catálogo y otros servicios de Backstage.  
 
 
 
