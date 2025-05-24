@@ -2,7 +2,7 @@
 
 ## 1. Diseño técnico y funcional del IDP
 
-1.1. [Diseño de arquitectura del portal IDP. Manual de instalación](./idp.md)  
+1.1. [Diseño de arquitectura del portal IDP. Manual de instalación](./1-1Disenio.md)  
 1.2. Mapeo de integraciones necesarias (Repositorios de código, Sonar, Maven)  
 1.3. Definición de flujos de autoservicio: creación de microservicios, generación de pipelines, solicitud de entornos, generación de documentación
 
